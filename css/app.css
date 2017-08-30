@@ -46,7 +46,7 @@ canvas {
 	display: flex;
 }
 .heart {
-  fill: red;
+  fill: pink;
   position: flex;
   top: 5px;
   width: 50px;
