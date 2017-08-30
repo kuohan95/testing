@@ -47,9 +47,11 @@ canvas {
 }
 .heart {
   fill: pink;
-  position: flex;
+  position: center;
   top: 5px;
-  width: 50px;
+  width: 58px;
+	left: 50px;
+	text-align: center;
   animation: pulse 1s ease infinite,
 }
 
