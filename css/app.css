@@ -7,5 +7,5 @@ body {
 
 canvas {
 	cursor: crosshair;
-	display: block;
+	display: flex;
 }
