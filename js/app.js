@@ -13,7 +13,7 @@ window.requestAnimFrame = ( function() {
 var canvas = document.getElementById( 'canvas' ),
 		ctx = canvas.getContext( '2d' ),
 		// full screen dimensions
-		cw = 750,
+		cw = 375,
 		ch = 300,
 		// firework collection
 		fireworks = [],
@@ -25,7 +25,7 @@ var canvas = document.getElementById( 'canvas' ),
 		limiterTotal = 5,
 		limiterTick = 0,
 		// this will time the auto launches of fireworks, one launch per 80 loop ticks
-		timerTotal = 80,
+		timerTotal = 1,
 		timerTick = 0,
 		touchstart = false,
 		// mouse x coordinate,

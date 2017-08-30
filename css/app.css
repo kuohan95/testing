@@ -1,11 +1,60 @@
 
 /* basic styles for black background and crosshair cursor */
-body {
-	background: #000;
-	margin: 0;
+
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+  color: red;
+}
+* {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: #2d3c49;
+}
+
+hr {
+  width: 100%;
+  border: solid 0.1em #7d97ad;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+}
+body {
+	background: #000;
+	margin: auto;
+}
+
+div.container4 {
+    height: 10em;
+     }
+div.container4 h1 {
+
+    background: red;
+		text-align: center;
+
+
+    }
 canvas {
 	cursor: crosshair;
 	display: flex;
+}
+.heart {
+  fill: red;
+  position: flex;
+  top: 5px;
+  width: 50px;
+  animation: pulse 1s ease infinite,
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.3); }
+  100% { transform: scale(1); }
 }
